@@ -106,6 +106,10 @@ nav .wrapper {
     top: 10px;
 }
 
+.wrapper {
+    box-shadow: 0 6px 10px -5px #333;
+}
+
 nav input {
     display: none;
 }
@@ -152,6 +156,13 @@ button.button-arounder {
     padding: 10px 20px;
     flex-grow: 1;
     margin: 20px;
+    box-shadow: 5px 10px 18px #888888;
+    transition: transform 0.3s ease;
+}
+
+button.button-arounder:hover {
+    box-shadow: 5px 10px 8px #888888;
+    transform: translate(0, -5px);
 }
 
 .menu {
