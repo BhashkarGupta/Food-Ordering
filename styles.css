@@ -351,15 +351,19 @@ input[type] {
         padding-left: 30px;
     }
 
-    .booking{
+    .booking {
         flex-direction: column;
     }
-    
+
     .button-arounder {
         width: 90%;
         margin: 10px;
         padding: 50px;
         font-size: large;
         font-weight: bolder;
+    }
+
+    label {
+        font-size: 1.3em;
     }
 }
