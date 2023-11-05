@@ -213,6 +213,7 @@ input[type] {
     padding: 5px 10px;
     border: 0px;
     font-size: 1em;
+    background-color: white;
 }
 
 @media screen and (max-width: 1300px) {
