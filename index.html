@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>LVRC</title>
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="#">TATA - LVRC</a></div>
+            <input type="radio" name="slider" id="menu-btn">
+            <input type="radio" name="slider" id="close-btn">
+            <ul class="nav-links">
+                <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">User</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">Help</a></li>
+                <li>
+                    <a href="#" class="desktop-item">More</a>
+                    <input type="checkbox" id="showDrop">
+                    <label for="showDrop" class="mobile-item">More</label>
+                    <ul class="drop-menu">
+                        <li><a href="#">Consumption</a></li>
+                        <li><a href="#">Device Loggedin</a></li>
+                        <li><a href="#">Suggestions</a></li>
+                        <li><a href="#">Setting</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <h1>Today's Menu:</h1>
+        <div class="food-menu">
+            <div class="menu" id="breakfast">
+                <h3>Breakfast:</h3>
+                <form action="">
+                    <input type="checkbox" id="food1" name="food1" value="Dosa">
+                    <label for="food1"> Dosa</label><br>
+                    <input type="checkbox" id="food2" name="food2" value="Idli">
+                    <label for="food2"> Idli</label><br>
+                    <input type="checkbox" id="food3" name="food3" value="Poha">
+                    <label for="food3"> Poha</label><br>
+                    <input type="checkbox" id="food4" name="food4" value="Upma">
+                    <label for="food4"> Upma</label><br>
+                    <input type="checkbox" id="food5" name="food5" value="Paratha">
+                    <label for="food5"> Paratha</label><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="menu" id="lunch">
+                <h3>Lunch:</h3>
+                <form action="">
+                    <input type="checkbox" id="food1" name="food1" value="Biryani">
+                    <label for="food1"> Biryani</label><br>
+                    <input type="checkbox" id="food2" name="food2" value="Paneer Tikka">
+                    <label for="food2"> Paneer Tikka</label><br>
+                    <input type=checkbox id="food3" name="food3" value="Butter Chicken">
+                    <label for="food3"> Butter Chicken</label><br>
+                    <input type="checkbox" id="food4" name="food4" value="Chole Bhature">
+                    <label for="food4"> Chole Bhature</label><br>
+                    <input type="checkbox" id="food5" name="food5" value="Tandoori Roti">
+                    <label for="food5"> Tandoori Roti</label><br><br>
+                    <input type="submit" value="Submit">
+                </form> 
+            </div>
+            <div class="menu" id="dinner">
+                <h3>Dinner:</h3>
+                <form action="">
+                    <input type="checkbox" id="food1" name="food1" value="Rogan Josh">
+                    <label for="food1"> Rogan Josh</label><br>
+                    <input type="checkbox" id="food2" name="food2" value="Palak Paneer">
+                    <label for="food2"> Palak Paneer</label><br>
+                    <input type="checkbox" id="food3" name="food3" value="Mutton Biryani">
+                    <label for="food3"> Mutton Biryani</label><br>
+                    <input type="checkbox" id="food4" name="food4" value="Tandoori Chicken">
+                    <label for="food4"> Tandoori Chicken</label><br>
+                    <input type="checkbox" id="food5" name="food5" value="Aloo Gobi">
+                    <label for="food5"> Aloo Gobi</label><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        
+        <div class="booking">
+            <button class="button-arounder">Food Booking</button>
+            <button class="button-arounder">Place Booking</button>
+            <button class="button-arounder">Instant Booking</button>
+        </div>
+    </div>
+</body>
+</html>
