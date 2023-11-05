@@ -348,6 +348,7 @@ input[type] {
     .menu {
         margin: 20px 10px;
         width: 100%;
+        padding-left: 30px;
     }
 
     .booking{
