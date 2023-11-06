@@ -121,6 +121,10 @@ h1 {
     font-size: 3em;
 }
 
+svg{
+    fill: #ffffff;
+}
+
 .container {
     position: relative;
     display: block;
