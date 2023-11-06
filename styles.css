@@ -121,7 +121,7 @@ h1 {
     font-size: 3em;
 }
 
-svg{
+svg {
     fill: #ffffff;
 }
 
@@ -162,6 +162,7 @@ button.button-arounder {
     margin: 20px;
     box-shadow: 5px 10px 18px #888888;
     transition: transform 0.3s ease;
+    font-weight: bolder;
 }
 
 button.button-arounder:hover {
@@ -364,7 +365,6 @@ input[type] {
         margin: 10px;
         padding: 50px;
         font-size: large;
-        font-weight: bolder;
     }
 
     label {
